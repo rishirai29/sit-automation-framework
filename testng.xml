@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SIT Suite">
+  <listeners>
+    <listener class-name="com.rishi.sit.listeners.EvidenceListener"/>
+  </listeners>
+  <test name="API">
+    <packages><package name="com.rishi.sit.api"/></packages>
+  </test>
+  <test name="Mobile">
+    <packages><package name="com.rishi.sit.mobile"/></packages>
+  </test>
+</suite>

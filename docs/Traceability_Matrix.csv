@@ -1,0 +1,4 @@
+Requirement,Test Case,Type,Data Sets
+REQ-01 API user data is consistent with the database record,TC-API-01,API,3
+REQ-02 Preference dependency journey completes with seeded data,TC-MOB-01,Mobile,2
+REQ-03 Views screen is reachable from the home screen,TC-MOB-02,Mobile,1
