@@ -1,0 +1,840 @@
+--------- beginning of main
+10-10 07:46:16.331  1068  1155 D EGL_emulation: app_time_stats: avg=14.08ms min=1.10ms max=48.83ms count=54
+10-10 07:46:16.492 12653 12654 W ziparchive: Unable to open '/data/app/~~HW5_pxbA-JIPHR-vCy9SHw==/io.appium.settings-0VVB-IHSTcyAgQN94raMjQ==/base.dm': No such file or directory
+10-10 07:46:16.492 12653 12654 W ziparchive: Unable to open '/data/app/~~HW5_pxbA-JIPHR-vCy9SHw==/io.appium.settings-0VVB-IHSTcyAgQN94raMjQ==/base.dm': No such file or directory
+--------- beginning of kernel
+10-10 07:46:16.586     0     0 I logd    : logdr: UID=2000 GID=2000 PID=12920 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of system
+10-10 07:46:16.645  1068  1109 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#65)android.os.BinderProxy@ff209b7@0
+10-10 07:46:16.646   567   601 V WindowManager: Finish Transition #65: created at 10-10 07:46:15.882 collect-started=0.036ms request-sent=0.138ms started=10.992ms ready=10.9ms sent=236.24ms finished=763.257ms
+10-10 07:46:16.650   567  2960 W WindowManager: Exception thrown during dispatchAppVisibility Window{b3ec562 u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies EXITING}
+10-10 07:46:16.650   567  2960 W WindowManager: android.os.DeadObjectException
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:546)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3271)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1221)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:409)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6946)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5637)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5580)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1151)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:868)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:396)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:286)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:181)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1339)
+10-10 07:46:16.650   567  2960 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1275)
+10-10 07:46:16.651   567  2960 I Process : Sending signal. PID: 12786 SIG: 9
+10-10 07:46:16.661   567   606 W ActivityManager: setHasOverlayUi called on unknown pid: 12786
+10-10 07:46:16.673  1068  1109 V WindowManagerShell: Track 0 became idle
+10-10 07:46:16.674  1068  1109 V WindowManagerShell: All active transition animations finished
+10-10 07:46:16.674  1068  1109 W Looper  : Slow dispatch took 30ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda0@1d57b66 m=0
+10-10 07:46:16.681 12653 12654 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:16.681 12653 12654 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:16.693   420   420 E BpTransactionCompletedListener: Failed to transact (-32)
+10-10 07:46:16.705  1068  1155 D EGL_emulation: app_time_stats: avg=1033.57ms min=12.69ms max=9172.13ms count=9
+10-10 07:46:16.710 12653 12654 W ziparchive: Unable to open '/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.dm': No such file or directory
+10-10 07:46:16.710 12653 12654 W ziparchive: Unable to open '/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.dm': No such file or directory
+10-10 07:46:16.892   567  2960 I ActivityManager: Force stopping io.appium.android.apis appid=10195 user=0: from pid 12951
+10-10 07:46:16.897   567  2960 I AppsFilter: interaction: PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.898   567  2960 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.933  1307  1307 D CarrierSvcBindHelper: onHandleForceStop: [io.appium.android.apis]
+10-10 07:46:16.934  1307  1307 D CarrierSvcBindHelper: No carrier app for: 0
+10-10 07:46:16.957   567  2960 I ActivityManager: Force stopping io.appium.android.apis appid=10195 user=0: clear data
+10-10 07:46:16.968   567  4120 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-10 07:46:16.969   567   615 I ActivityManager: Force stopping io.appium.android.apis appid=10195 user=-1: clearApplicationUserData
+10-10 07:46:16.970   567   615 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877491/cgroup.freeze
+10-10 07:46:16.971   567   615 W libprocessgroup: Failed to apply Frozen process profile: No such file or directory
+10-10 07:46:16.975   567   615 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877491/cgroup.freeze
+10-10 07:46:16.975   567   615 W libprocessgroup: Failed to apply Unfrozen process profile: No such file or directory
+10-10 07:46:16.979   567   638 I AppsFilter: interaction: PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.980   567   638 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.982   567   638 I AppsFilter: interaction: PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.982   567   638 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:16.996   439   439 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-10 07:46:17.009  1307  1307 D CarrierSvcBindHelper: onHandleForceStop: [io.appium.android.apis]
+10-10 07:46:17.011  1307  1307 D CarrierSvcBindHelper: No carrier app for: 0
+10-10 07:46:17.033  1279  1279 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_DATA_CLEARED
+10-10 07:46:17.038  1279  1279 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_DATA_CLEARED
+10-10 07:46:17.045   567   615 D ActivityManager: sync unfroze 9639 com.google.android.documentsui for 3
+10-10 07:46:17.054   567   615 D ActivityManager: sync unfroze 1085 com.google.android.permissioncontroller for 3
+10-10 07:46:17.066   567  2961 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10194 user=0: from pid 12965
+10-10 07:46:17.071   567  2961 I AppsFilter: interaction: PackageSetting{9abf69e io.appium.android.apis/10195} -> PackageSetting{47f63d8 io.appium.uiautomator2.server/10194} BLOCKED
+10-10 07:46:17.071   567  2961 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{47f63d8 io.appium.uiautomator2.server/10194} BLOCKED
+10-10 07:46:17.072   567   592 I ActivityManager: Force stopping io.appium.uiautomator2.server.test appid=10193 user=0: from pid 12975
+10-10 07:46:17.072   567   592 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_10193/cgroup.freeze
+10-10 07:46:17.072   567   592 W libprocessgroup: Failed to apply Frozen process profile: No such file or directory
+10-10 07:46:17.074   567  2961 D SafetySourceDataValidator: No cert check requested for package com.google.android.permissioncontroller
+10-10 07:46:17.075   567   592 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_10193/cgroup.freeze
+10-10 07:46:17.076   567   592 W libprocessgroup: Failed to apply Unfrozen process profile: No such file or directory
+10-10 07:46:17.076   567   592 I AppsFilter: interaction: PackageSetting{9abf69e io.appium.android.apis/10195} -> PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} BLOCKED
+10-10 07:46:17.077   567   592 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} BLOCKED
+10-10 07:46:17.093  4702  9356 D EGL_emulation: app_time_stats: avg=6.83ms min=2.81ms max=31.22ms count=61
+10-10 07:46:17.101   439   439 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-10 07:46:17.112  5464 12982 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+10-10 07:46:17.134  1068  1068 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-10 07:46:17.156  1307  1307 D CarrierSvcBindHelper: onHandleForceStop: [io.appium.uiautomator2.server]
+10-10 07:46:17.160  1307  1307 D CarrierSvcBindHelper: No carrier app for: 0
+10-10 07:46:17.161  1307  1307 D CarrierSvcBindHelper: onHandleForceStop: [io.appium.uiautomator2.server.test]
+10-10 07:46:17.161  1307  1307 D CarrierSvcBindHelper: No carrier app for: 0
+10-10 07:46:17.188  1085  1085 D PersistedStoragePackageUninstalledReceiver: Received android.intent.action.PACKAGE_DATA_CLEARED for io.appium.android.apis for u0
+10-10 07:46:17.199  6489  6545 I Icing   : doRemovePackageData io.appium.android.apis
+10-10 07:46:17.203  1958  3027 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+10-10 07:46:17.206  1958  3027 D MediaProvider: Deleted 0 Android/media items belonging to io.appium.android.apis on /data/user/0/com.google.android.providers.media.module/databases/external.db
+10-10 07:46:17.207  1958  3027 D MediaGrants: Removed 0 media_grants for 0 user for io.appium.android.apis. Reason: Package orphaned
+10-10 07:46:17.208  1958  3027 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+10-10 07:46:17.213 12990 12990 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-10 07:46:17.218 12990 12990 I AndroidRuntime: Using default boot image
+10-10 07:46:17.218 12990 12990 I AndroidRuntime: Leaving lock profiling enabled
+10-10 07:46:17.220 12990 12990 I app_process: Core platform API reporting enabled, enforcing=false
+10-10 07:46:17.221 12990 12990 I app_process: Using CollectorTypeCC GC.
+10-10 07:46:17.281 12990 12990 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-10 07:46:17.290 12990 12990 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-10 07:46:17.290 12990 12990 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-10 07:46:17.294 12990 12990 W app_process: Unexpected CPU variant for x86: x86_64.
+10-10 07:46:17.294 12990 12990 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-10 07:46:17.307 12990 12990 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-10 07:46:17.307 12990 12990 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-10 07:46:17.308 12990 12990 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-10 07:46:17.310 12990 12990 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+10-10 07:46:17.305 12990 12990 W main    : type=1400 audit(0.0:296): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-10 07:46:17.315 12990 12990 D UiAutomationConnection: Created on user UserHandle{0}
+10-10 07:46:17.317   567  2960 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10194 user=0: start instr
+10-10 07:46:17.305 12990 12990 W main    : type=1400 audit(0.0:297): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-10 07:46:17.305 12990 12990 W main    : type=1400 audit(0.0:298): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-10 07:46:17.325   567  2960 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10194; state: DISABLED
+10-10 07:46:17.325   567  2960 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10194; state: DISABLED
+10-10 07:46:17.325   567  2960 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10194; state: DISABLED
+10-10 07:46:17.325   567  2960 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10194; state: ENABLED
+10-10 07:46:17.325   567   616 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10194; state: ENABLED
+10-10 07:46:17.331   567   724 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10194; state: ENABLED
+10-10 07:46:17.336   359   359 D Zygote  : Forked child process 13006
+10-10 07:46:17.337   567   616 I ActivityManager: Start proc 13006:io.appium.uiautomator2.server/u0a194 for added application io.appium.uiautomator2.server
+10-10 07:46:17.338  1068  1155 D EGL_emulation: app_time_stats: avg=9.67ms min=1.02ms max=47.55ms count=57
+10-10 07:46:17.349  6489  6497 W gle.android.gms: Cleared Reference was only reachable from finalizer (only reported once)
+10-10 07:46:17.351  6489  6497 I gle.android.gms: Background concurrent copying GC freed 58166(2688KB) AllocSpace objects, 76(3952KB) LOS objects, 49% free, 8094KB/15MB, paused 320us,182us total 120.244ms
+10-10 07:46:17.351  6489  6497 W gle.android.gms: Reducing the number of considered missed Gc histogram windows from 240 to 100
+10-10 07:46:17.358 13006 13006 I tomator2.server: Late-enabling -Xcheck:jni
+10-10 07:46:17.372 13006 13006 I tomator2.server: Using CollectorTypeCC GC.
+10-10 07:46:17.373 13006 13006 W tomator2.server: Unexpected CPU variant for x86: x86_64.
+10-10 07:46:17.373 13006 13006 W tomator2.server: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-10 07:46:17.395   439   455 I adbd    : jdwp connection from 13006
+10-10 07:46:17.402   567   592 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10194; state: DISABLED
+10-10 07:46:17.402   567   592 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10194; state: DISABLED
+10-10 07:46:17.407 13006 13006 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10194; state: ENABLED
+10-10 07:46:17.407 13006 13006 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10194; state: ENABLED
+10-10 07:46:17.410   567  1850 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10194; state: ENABLED
+10-10 07:46:17.414 13006 13006 W tomator2.server: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-10 07:46:17.415 13006 13006 W tomator2.server: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-10 07:46:17.416 13006 13006 W tomator2.server: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116])
+10-10 07:46:17.417 13006 13006 W ziparchive: Unable to open '/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.dm': No such file or directory
+10-10 07:46:17.417 13006 13006 W ziparchive: Unable to open '/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.dm': No such file or directory
+10-10 07:46:17.420 13006 13006 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:17.420 13006 13006 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:17.517 13006 13006 D nativeloader: Configuring clns-6 for other apk /system/framework/android.test.runner.jar:/system/framework/android.test.mock.jar:/system/framework/android.test.base.jar:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/lib/x86_64:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/io.appium.uiautomator2.server
+10-10 07:46:17.523 13006 13006 V GraphicsEnvironment: Currently set values for:
+10-10 07:46:17.523 13006 13006 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-10 07:46:17.523 13006 13006 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-10 07:46:17.523 13006 13006 V GraphicsEnvironment: ANGLE GameManagerService for io.appium.uiautomator2.server: false
+10-10 07:46:17.524 13006 13006 V GraphicsEnvironment: io.appium.uiautomator2.server is not listed in per-application setting
+10-10 07:46:17.524 13006 13006 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-10 07:46:17.527 13006 13006 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-10 07:46:17.530 13006 13006 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/lib/x86_64:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/lib/x86_64, permitted_path=/data:/mnt/expand
+10-10 07:46:17.530 13006 13006 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-10 07:46:17.533 13006 13006 D nativeloader: Configuring clns-8 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/lib/x86_64:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/lib/x86_64, permitted_path=/data:/mnt/expand
+10-10 07:46:17.534 13006 13006 W tomator2.server: ClassLoaderContext shared library size mismatch. Expected=2, found=3 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk*3951785253:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes2.dex*738772062:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes3.dex*1258287429:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes4.dex*2619343039:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk*2274969430:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes2.dex*2165435016:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes3.dex*2017558115:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes4.dex*697304681:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes5.dex*2864390262:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes6.dex*4071222998:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes7.dex*2823388421:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes8.dex*3472742404:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes9.dex*297393243:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes10.dex*2623517674:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes11.dex*1236046278:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes12.dex*2127882018:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes13.dex*1240329824:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes14.dex*44262215:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes15.dex*1676306457:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes16.dex*3119502957])
+10-10 07:46:17.535 13006 13006 W tomator2.server: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk*3951785253:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes2.dex*738772062:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes3.dex*1258287429:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes4.dex*2619343039:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk*2274969430:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes2.dex*2165435016:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes3.dex*2017558115:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes4.dex*697304681:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes5.dex*2864390262:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes6.dex*4071222998:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes7.dex*2823388421:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes8.dex*3472742404:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes9.dex*297393243:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes10.dex*2623517674:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes11.dex*1236046278:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes12.dex*2127882018:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes13.dex*1240329824:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes14.dex*44262215:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes15.dex*1676306457:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes16.dex*3119502957])
+10-10 07:46:17.536 13006 13006 W tomator2.server: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk*3951785253:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes2.dex*738772062:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes3.dex*1258287429:/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk!classes4.dex*2619343039:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk*2274969430:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes2.dex*2165435016:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes3.dex*2017558115:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes4.dex*697304681:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes5.dex*2864390262:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes6.dex*4071222998:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes7.dex*2823388421:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes8.dex*3472742404:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes9.dex*297393243:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes10.dex*2623517674:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes11.dex*1236046278:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes12.dex*2127882018:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes13.dex*1240329824:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes14.dex*44262215:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes15.dex*1676306457:/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.apk!classes16.dex*3119502957])
+10-10 07:46:17.537 13006 13006 W ziparchive: Unable to open '/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.dm': No such file or directory
+10-10 07:46:17.537 13006 13006 W ziparchive: Unable to open '/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.dm': No such file or directory
+10-10 07:46:17.540 13006 13006 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:17.540 13006 13006 W ziparchive: Unable to open '/data/app/~~e_aVEwh8TEkiYuvnsPUSKQ==/io.appium.uiautomator2.server-w-o0W2cEvdfvSZ6dJMLGtg==/base.dm': No such file or directory
+10-10 07:46:17.642 13006 13006 I AndroidJUnitRunner: newApplication android.app.Application
+10-10 07:46:17.648 13006 13006 I AndroidJUnitRunner: onCreate Bundle[mParcelledData.dataSize=64]
+10-10 07:46:17.650 13006 13006 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
+10-10 07:46:17.661 13006 13006 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+10-10 07:46:17.663   567  1850 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10194. pid: 13006
+10-10 07:46:17.665 13006 13027 D AndroidJUnitRunner: onStart is called.
+10-10 07:46:17.670   567  1850 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10194; state: ENABLED
+10-10 07:46:17.671 13006 13027 I InstrConnection: Could not send broadcast or register receiver (isolatedProcess?)
+10-10 07:46:17.681 13006 13027 D TestRequestBuilder: Using class path scanning to discover tests
+10-10 07:46:17.681 13006 13027 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~dnr72g8C3MazfDOdiiCUUg==/io.appium.uiautomator2.server.test-ap0Snih--Y1P4XMfVtsDyw==/base.apk]
+10-10 07:46:17.683 13006 13027 W tomator2.server: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+10-10 07:46:17.756 13006 13027 I TestRunner: run started: 1 tests
+10-10 07:46:17.759 13006 13027 I TestRunner: started: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)
+10-10 07:46:17.765 13006 13027 I appium  : >>>Entry point start<<<
+10-10 07:46:17.769 13006 13027 I appium  : Starting ServerInstrumentation
+10-10 07:46:17.802 13006 13027 I appium  : buildConfig: {"VERSION_NAME":"10.6.6","APPLICATION_ID":"io.appium.uiautomator2.server","BUILD_TYPE":"debug","VERSION_CODE":278,"BUILD_TIME":"1789023862215","DEBUG":true,"FLAVOR":"server"}
+10-10 07:46:17.807 13006 13027 I UiDevice: Creating a new instance, old instance exists: false
+10-10 07:46:17.809 13006 13027 I UiAutomation: Initialized for user 0 on display 0
+10-10 07:46:17.811   567  1850 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-10 07:46:17.811   567  1850 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-10 07:46:17.817   567  1850 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-10 07:46:17.819  1922  1939 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-10 07:46:17.819 13006 13029 V UiAutomation: Init UiAutomation@7a4ef70[id=14, displayId=0, flags=0]
+10-10 07:46:17.819  1922  2455 I AiAiEcho: Predicting[0]: 
+10-10 07:46:17.819  1922  2455 I AiAiEcho: EchoTargets: 
+10-10 07:46:17.819  1922  2455 I AiAiEcho: Filtered by AiAi flag check: 
+10-10 07:46:17.820  1922  2455 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-10 07:46:17.820  1922  2455 I AiAiEcho: Predicting[0]: 
+10-10 07:46:17.820  1922  2455 I AiAiEcho: EchoTargets: 
+10-10 07:46:17.820  1922  2455 I AiAiEcho: Filtered by AiAi flag check: 
+10-10 07:46:17.821  1922  2455 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-10 07:46:17.821  1922  2455 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-10 07:46:17.823  1922  2455 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-10 07:46:17.823  2073  2488 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+10-10 07:46:17.824  2073  2488 I A       : Nga state changed to NgaStateDetails{state=DISABLED, isSpecialExperience=false}
+10-10 07:46:17.827  1949  2906 I A       : Unsubscribed to apa or classic variant change.
+10-10 07:46:17.827  1949  5330 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-10 07:46:17.827  1949  5330 I A       : [Memory] eligibility: StashEligibility{4}
+10-10 07:46:17.831   567   567 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-10 07:46:17.834  1068  1068 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-10 07:46:17.837 13006 13027 D UiDevice: Setting accessibility service flags: 65618
+10-10 07:46:17.838   567   592 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-10 07:46:17.839  1922  1939 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-10 07:46:17.840  1922  2455 I AiAiEcho: Predicting[0]: 
+10-10 07:46:17.840  1922  2455 I AiAiEcho: EchoTargets: 
+10-10 07:46:17.840  1922  2455 I AiAiEcho: Filtered by AiAi flag check: 
+10-10 07:46:17.840  1922  2455 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-10 07:46:17.841  1922  2455 I AiAiEcho: Predicting[0]: 
+10-10 07:46:17.842  1922  2455 I AiAiEcho: EchoTargets: 
+10-10 07:46:17.842  1922  2455 I AiAiEcho: Filtered by AiAi flag check: 
+10-10 07:46:17.842  1922  2455 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-10 07:46:17.846 13006 13027 D UiDevice: Turning on screen.
+10-10 07:46:17.849   567   592 D SafetySourceDataValidator: No cert check requested for package com.google.android.permissioncontroller
+10-10 07:46:17.849  1922  2455 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-10 07:46:17.851  1922  2455 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-10 07:46:17.864  1068  1068 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-10 07:46:17.876 13006 13027 I appium  : AndroidServer created on port 6790
+10-10 07:46:17.876 13006 13027 I appium  : Starting MJPEG Server
+10-10 07:46:17.879 13006 13027 I appium  : MJPEG Server started
+10-10 07:46:17.879 13006 13027 I appium  : ServerInstrumentation started
+10-10 07:46:17.880 13006 13031 D TrafficStats: tagSocket(84) with statsTag=0xffffffff, statsUid=-1
+10-10 07:46:17.880 13006 13031 I appium  : ServerSocket created on port 7810
+10-10 07:46:17.934  4702  4833 I BugleNetwork: CloudSyncGaiaBindManagerImpl: Start bind handler if there is a GAIA account associated with CMS
+10-10 07:46:17.935  4702 11991 W LinkedAccountManager: stored accountId is invalid, throwing NoLinkedAccountException.
+10-10 07:46:17.935  4702 12347 I BugleTransport: Tachygram is disabled in RCS Configuration. Enabled transport is Dual Reg [CONTEXT ratelimit_period="5 SECONDS" ]
+10-10 07:46:17.936  4702  4816 I BugleNetwork: CloudSyncGaiaBindManagerImpl: No GAIA account is linked.
+10-10 07:46:17.971 13006 13033 I PlatformDependent: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+10-10 07:46:17.977 13006 13033 W tomator2.server: Accessing hidden field Lsun/nio/ch/SelectorImpl;->selectedKeys:Ljava/util/Set; (unsupported, reflection, allowed)
+10-10 07:46:17.977 13006 13033 W tomator2.server: Accessing hidden field Lsun/nio/ch/SelectorImpl;->publicSelectedKeys:Ljava/util/Set; (unsupported, reflection, allowed)
+10-10 07:46:17.996 13006 13033 D TrafficStats: tagSocket(104) with statsTag=0xffffffff, statsUid=-1
+10-10 07:46:18.009 13006 13033 D CompatibilityChangeReporter: Compat change id reported: 170188668; UID 10194; state: ENABLED
+10-10 07:46:18.005 13006 13006 W Thread-5: type=1400 audit(0.0:299): avc:  denied  { read } for  name="somaxconn" dev="proc" ino=89485 scontext=u:r:untrusted_app:s0:c194,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=io.appium.uiautomator2.server
+10-10 07:46:18.013 13006 13033 W MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: fe:90:6e:81:d8:ea:4e:b5
+10-10 07:46:18.090 13006 13033 W ServerBootstrap: Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x2e5356f0]' of type 'class io.netty.channel.socket.nio.NioServerSocketChannel'
+10-10 07:46:18.091 13006 13033 W ServerBootstrap: Unknown channel option 'TCP_NODELAY' for channel '[id: 0x2e5356f0]' of type 'class io.netty.channel.socket.nio.NioServerSocketChannel'
+10-10 07:46:18.100  4702  9356 D EGL_emulation: app_time_stats: avg=4.27ms min=2.45ms max=16.00ms count=61
+10-10 07:46:18.125   364  7165 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 4844864
+10-10 07:46:18.238 13006 13035 I appium  : channel read: GET /status
+10-10 07:46:18.241 13006 13035 I appium  : Status command
+10-10 07:46:18.249 13006 13035 I appium  : AppiumResponse: {"sessionId":"None","value":{"build":{"version":"10.6.6","versionCode":278},"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+10-10 07:46:18.269 13006 13035 I appium  : channel read: POST /session
+10-10 07:46:18.271 13006 13035 I appium  : NewSession command
+10-10 07:46:18.288 13006 13035 W tomator2.server: Accessing hidden field Landroid/app/UiAutomation;->mOnAccessibilityEventListener:Landroid/app/UiAutomation$OnAccessibilityEventListener; (max-target-o, reflection, allowed)
+10-10 07:46:18.292 13006 13035 I appium  : Created the new session with id c233598b-6cdb-45f5-87c4-0772b204c5c2 and capabilities {app=C:\Users\rutka\Documents\sit-automation-framework/apps/ApiDemos-debug.apk, appPackage=io.appium.android.apis, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=io.appium.android.apis.ApiDemos, desired={platformName=ANDROID, deviceName=Pixel_6, automationName=UIAutomator2, app=C:\Users\rutka\Documents\sit-automation-framework/apps/ApiDemos-debug.apk}, automationName=UIAutomator2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=ANDROID}
+10-10 07:46:18.297 13006 13035 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"capabilities":{"firstMatch":[{"platformName":"ANDROID","deviceName":"emulator-5554","automationName":"UIAutomator2","app":"C:\\Users\\rutka\\Documents\\sit-automation-framework/apps/ApiDemos-debug.apk","platform":"LINUX","webStorageEnable…
+10-10 07:46:18.315 13006 13035 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/appium/device/pixel_ratio
+10-10 07:46:18.318 13006 13035 I appium  : GetDevicePixelRatio command
+10-10 07:46:18.322 13006 13036 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/appium/device/system_bars
+10-10 07:46:18.324 13006 13036 I appium  : GetSystemBars command
+10-10 07:46:18.326 13006 13038 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/appium/device/info
+10-10 07:46:18.326 13006 13035 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":2.625}
+10-10 07:46:18.327 13006 13037 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/window/current/size
+10-10 07:46:18.328 13006 13038 I appium  : GetDeviceInfo command
+10-10 07:46:18.331 13006 13036 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"statusBar":128}}
+10-10 07:46:18.331 13006 13037 I appium  : GetDeviceSize command
+10-10 07:46:18.331 13006 13037 I appium  : Get window size of the device
+10-10 07:46:18.334 13006 13037 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"height":2400,"width":1080}}
+10-10 07:46:18.360 13006 13038 W tomator2.server: Accessing hidden field Landroid/net/NetworkCapabilities;->mSignalStrength:I (max-target-p, reflection, allowed)
+10-10 07:46:18.361 13006 13038 W tomator2.server: Accessing hidden field Landroid/net/NetworkCapabilities;->mSSID:Ljava/lang/String; (max-target-o, reflection, allowed)
+10-10 07:46:18.365 13006 13038 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10194; state: ENABLED
+10-10 07:46:18.375 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"androidId":"71a25b8980a9ef9e","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{…
+10-10 07:46:18.423   567  1850 I ActivityManager: Force stopping io.appium.android.apis appid=10195 user=0: from pid 13047
+10-10 07:46:18.427   567  1850 I AppsFilter: interaction: PackageSetting{ed5cbf8 io.appium.uiautomator2.server.test/10193} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:18.427   567  1850 I AppsFilter: interaction: PackageSetting{e0f7e37 io.appium.settings/10192} -> PackageSetting{9abf69e io.appium.android.apis/10195} BLOCKED
+10-10 07:46:18.438  1307  1307 D CarrierSvcBindHelper: onHandleForceStop: [io.appium.android.apis]
+10-10 07:46:18.440  1307  1307 D CarrierSvcBindHelper: No carrier app for: 0
+10-10 07:46:18.683   567  1850 W ActivityTaskManager: callingPackage for (uid=2000, pid=13047) has no WPC
+10-10 07:46:18.684   567  1850 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10195; state: DISABLED
+10-10 07:46:18.684   567  1850 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10195; state: DISABLED
+10-10 07:46:18.685   567  1850 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10195; state: DISABLED
+10-10 07:46:18.686   567  1850 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10195; state: DISABLED
+10-10 07:46:18.686   567  1850 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10195; state: DISABLED
+10-10 07:46:18.687   567  1850 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10195; state: DISABLED
+10-10 07:46:18.688   567  1850 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10195; state: DISABLED
+10-10 07:46:18.689   567  1850 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10195; state: DISABLED
+10-10 07:46:18.689   567  1850 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10195; state: DISABLED
+10-10 07:46:18.690   567  1850 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10195; state: DISABLED
+10-10 07:46:18.691   567  1850 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10195; state: DISABLED
+10-10 07:46:18.691   567  1850 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10195; state: DISABLED
+10-10 07:46:18.691   567  1850 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10195; state: DISABLED
+10-10 07:46:18.692   567  1850 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10195; state: DISABLED
+10-10 07:46:18.692   567  1850 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10195; state: DISABLED
+10-10 07:46:18.693   567  1850 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10195; state: DISABLED
+10-10 07:46:18.694   567  1850 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10195; state: ENABLED
+10-10 07:46:18.701   567  1850 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10195; state: DISABLED
+10-10 07:46:18.701   567  1850 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10195; state: DISABLED
+10-10 07:46:18.703   567  1850 V SplashScreenExceptionList: SplashScreen checking exception for package io.appium.android.apis (target sdk:33) -> false
+10-10 07:46:18.704   567  1850 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10195; state: ENABLED
+10-10 07:46:18.707  1068  1109 V WindowManagerShell: Transition requested: android.os.BinderProxy@cf8ddf9 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=1 lastActiveTime=9243272 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@12e913e} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{508eb9f io.appium.android.apis.ApiDemos} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:18.708   567  1850 D CompatibilityChangeReporter: Compat change id reported: 194833441; UID 10195; state: ENABLED
+10-10 07:46:18.708   567  1850 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-10 07:46:18.716   567   606 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10195; state: DISABLED
+10-10 07:46:18.716   567   606 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10195; state: DISABLED
+10-10 07:46:18.716   567   606 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10195; state: DISABLED
+10-10 07:46:18.716   567   606 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10195; state: ENABLED
+10-10 07:46:18.717   567   616 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10195; state: ENABLED
+10-10 07:46:18.719  4702  4702 D ContentCaptureManager: updateWindowAttributes(): window flags=-2122252032
+10-10 07:46:18.721  1068  1139 D SplashScreenView: Build android.window.SplashScreenView{9aa2bb V.E...... ......ID 0,0-0,0}
+10-10 07:46:18.721  1068  1139 D SplashScreenView: Icon: view: android.widget.ImageView{70e73d8 V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@9835331 size: 420
+10-10 07:46:18.721  1068  1139 D SplashScreenView: Branding: view: android.view.View{9298a16 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-10 07:46:18.724   359   359 D Zygote  : Forked child process 13050
+10-10 07:46:18.725   567  2960 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10195; state: DISABLED
+10-10 07:46:18.726   567  2960 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10195; state: DISABLED
+10-10 07:46:18.727   567   616 I ActivityManager: Start proc 13050:io.appium.android.apis/u0a195 for next-top-activity {io.appium.android.apis/io.appium.android.apis.ApiDemos}
+10-10 07:46:18.727   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-10 07:46:18.733   567  3017 D CoreBackPreview: Window{ac73985 u0 Splash Screen io.appium.android.apis}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@246e901, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:18.753   567   724 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10195; state: ENABLED
+10-10 07:46:18.757  1922  3439 I AiAiConversations: [MessageActivityBroadcaster][component=ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}][sessionId=-955990356][exitReason=DEFAULT][requiresDeletion=false] Exit Conversation
+10-10 07:46:18.758  1922  3439 I AiAiPeople: [hga] [onConversationExited] Current session is not active
+10-10 07:46:18.762  1068  1155 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:18.787 13050 13050 I um.android.apis: Late-enabling -Xcheck:jni
+10-10 07:46:18.817  1068  1109 V WindowManagerShell: onTransitionReady android.os.BinderProxy@cf8ddf9: {id=66 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6e652fa} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x909fa8f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4b5b0ab} m=TO_BACK f=NONE leash=Surface(name=Task=13)/@0xd31711c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:18.817  1068  1109 V WindowManagerShell: Playing animation for (#66)android.os.BinderProxy@cf8ddf9@0
+10-10 07:46:18.817  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@7b361c4
+10-10 07:46:18.817  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c288ad
+10-10 07:46:18.817  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@b4717e2
+10-10 07:46:18.818  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@1583773
+10-10 07:46:18.818  1068  1109 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-10 07:46:18.818  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@966d630
+10-10 07:46:18.818  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f2c02a9
+10-10 07:46:18.818   567   601 V WindowManager: Sent Transition #66 createdAt=10-10 07:46:18.695 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=1 lastActiveTime=9243272 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bc0a194 Task{744c9c9 #24 type=standard A=10195:io.appium.android.apis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{eb8143d io.appium.android.apis.ApiDemos} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:18.818  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@642d02e
+10-10 07:46:18.819   567   601 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-10 07:46:18.819  1068  1109 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=66 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6e652fa} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x909fa8f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4b5b0ab} m=TO_BACK f=NONE leash=Surface(name=Task=13)/@0xd31711c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:18.819   567   601 V WindowManager:     info={id=66 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{bc0a194 Task{744c9c9 #24 type=standard A=10195:io.appium.android.apis}}} m=OPEN f=NONE leash=Surface(name=Task=24)/@0xaf5b3a6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{a840702 Task{ea09023 #13 type=standard A=10131:com.google.android.apps.messaging}}} m=TO_BACK f=NONE leash=Surface(name=Task=13)/@0xb07b3e4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:18.819  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@67f61f8, appThread = android.app.IApplicationThread$Stub$Proxy@1e676d1, debugName = LauncherToDream }}
+10-10 07:46:18.819  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dfa7536, appThread = android.app.IApplicationThread$Stub$Proxy@11e8c37, debugName = QuickstepLaunchHome }}
+10-10 07:46:18.821  1068  1109 V WindowManagerShell:  Delegate animation for #66 to null
+10-10 07:46:18.821  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:18.821  1068  1109 V WindowManagerShell: start default transition animation, info = {id=66 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@6e652fa} m=OPEN f=NONE leash=Surface(name=Task=24)/@0x909fa8f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@4b5b0ab} m=TO_BACK f=NONE leash=Surface(name=Task=13)/@0xd31711c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:18.823  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@cb6a4c6 animAttr=0x9 type=OPEN isEntrance=false
+10-10 07:46:18.823  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@b30c7b4 animAttr=0x8 type=OPEN isEntrance=true
+10-10 07:46:18.825  1068  1109 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:18.825 13050 13050 I um.android.apis: Using CollectorTypeCC GC.
+10-10 07:46:18.827 13050 13050 W um.android.apis: Unexpected CPU variant for x86: x86_64.
+10-10 07:46:18.827 13050 13050 W um.android.apis: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-10 07:46:18.867   439   455 I adbd    : jdwp connection from 13050
+10-10 07:46:18.880 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10195; state: ENABLED
+10-10 07:46:18.881 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10195; state: DISABLED
+10-10 07:46:18.884   567   592 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10195; state: ENABLED
+10-10 07:46:18.886 13050 13050 W ziparchive: Unable to open '/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.dm': No such file or directory
+10-10 07:46:18.887 13050 13050 W ziparchive: Unable to open '/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.dm': No such file or directory
+10-10 07:46:18.943 13050 13050 D nativeloader: Configuring clns-6 for other apk /data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/io.appium.android.apis
+10-10 07:46:18.951 13050 13050 V GraphicsEnvironment: Currently set values for:
+10-10 07:46:18.951 13050 13050 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-10 07:46:18.952 13050 13050 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-10 07:46:18.952 13050 13050 V GraphicsEnvironment: ANGLE GameManagerService for io.appium.android.apis: false
+10-10 07:46:18.952 13050 13050 V GraphicsEnvironment: io.appium.android.apis is not listed in per-application setting
+10-10 07:46:18.952 13050 13050 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-10 07:46:18.972   567  2960 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10195. pid: 13050
+10-10 07:46:18.987 13050 13072 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-10 07:46:18.989 13050 13072 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-10 07:46:18.991 13050 13072 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-10 07:46:19.009  1068  1068 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-10 07:46:19.075 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10195; state: ENABLED
+10-10 07:46:19.081 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10195; state: ENABLED
+10-10 07:46:19.085 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10195; state: DISABLED
+10-10 07:46:19.087 13050 13050 W OpenGLRenderer: Unknown dataspace 0
+10-10 07:46:19.097   567   592 D CoreBackPreview: Window{abb86ad u0 io.appium.android.apis/io.appium.android.apis.ApiDemos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2b6e0a9, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:19.100  4702  9356 D EGL_emulation: app_time_stats: avg=5.20ms min=2.55ms max=39.67ms count=57
+10-10 07:46:19.136 13050 13070 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-10 07:46:19.137 13050 13070 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-10 07:46:19.183   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-10 07:46:19.183 13050 13070 I Gralloc4: mapper 4.x is not supported
+10-10 07:46:19.167     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-10 07:46:19.207 13050 13070 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:19.253   567   567 W AccessibilityManagerService:  wait for adding window timeout: 235
+10-10 07:46:19.269   567   601 W ziparchive: Unable to open '/data/app/~~FCliLpuR9LNhx_tNEPJN8g==/io.appium.android.apis-G8daVfw03JymHDVqdj8S_A==/base.dm': No such file or directory
+10-10 07:46:19.271   567   601 I ActivityTaskManager: Displayed io.appium.android.apis/.ApiDemos for user 0: +585ms
+10-10 07:46:19.290   567   592 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10195; state: ENABLED
+10-10 07:46:19.290   567   592 I ImeTracker: io.appium.android.apis:d51f5f83: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-10 07:46:19.291   567   592 I ImeTracker: io.appium.android.apis:d51f5f83: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-10 07:46:19.296  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-10 07:46:19.298  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-10 07:46:19.299  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0xb1(Filter) imeOptions=0x50000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=16908298 fieldName=null extras=null}, false)
+10-10 07:46:19.299  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:19.302  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:19.306  1068  1155 D EGL_emulation: app_time_stats: avg=283.69ms min=3.34ms max=2453.31ms count=9
+10-10 07:46:19.326  1068  1109 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#66)android.os.BinderProxy@cf8ddf9@0
+10-10 07:46:19.328   567   601 V WindowManager: Finish Transition #66: created at 10-10 07:46:18.695 collect-started=0.689ms request-sent=11.6ms started=14.515ms ready=92.381ms sent=121.091ms finished=632.629ms
+10-10 07:46:19.332  1068  1109 V WindowManagerShell: Track 0 became idle
+10-10 07:46:19.333  1068  1109 V WindowManagerShell: All active transition animations finished
+10-10 07:46:19.340 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:19.346 13006 13038 I appium  : FindElement command
+10-10 07:46:19.349 13006 13038 I appium  : method: 'accessibility id', selector: 'Preference'
+10-10 07:46:19.353 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:19.598  5464  5940 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-10 07:46:19.599  5464  5940 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-10 07:46:19.601  5464  5940 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-10 07:46:19.609  5464  5940 I FontLog : Pulling font file for id = 25, cache size = 5 [CONTEXT service_id=132 ]
+10-10 07:46:19.614  5464  5940 I FontLog : Pulling font file for id = 25, cache size = 5 [CONTEXT service_id=132 ]
+10-10 07:46:19.635  1068  1138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@f88f16d
+10-10 07:46:19.636   567   592 D CoreBackPreview: Window{ac73985 u0 Splash Screen io.appium.android.apis EXITING}: Setting back callback null
+10-10 07:46:19.637   567  1850 W InputManager-JNI: Input channel object 'ac73985 Splash Screen io.appium.android.apis (client)' was disposed without first being removed with the input manager!
+10-10 07:46:19.698  1068  1155 D EGL_emulation: app_time_stats: avg=36.27ms min=0.85ms max=1602.47ms count=46
+10-10 07:46:20.099  1068  1068 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-10 07:46:20.165 13006 13038 W tomator2.server: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+10-10 07:46:20.192 13006 13038 W tomator2.server: Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mSourceNodeId:J (unsupported, reflection, allowed)
+10-10 07:46:20.199 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ec-ffff-ffff00000012","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ec-ffff-ffff00000012"}}
+10-10 07:46:20.208 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ec-ffff-ffff00000012/click
+10-10 07:46:20.210 13006 13038 I appium  : Click command
+10-10 07:46:20.218 13006 13038 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10194; state: ENABLED
+10-10 07:46:20.230  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1499.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9244783, downTime=9244783, deviceId=-1, source=0x1002, displayId=0, eventId=-665569259 }
+10-10 07:46:20.240  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1499.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9244804, downTime=9244783, deviceId=-1, source=0x1002, displayId=0, eventId=-628811533 }
+10-10 07:46:20.254 13006 13038 W GestureController: Gestures took longer than expected (36ms >> 16ms), device might be in a busy state.
+10-10 07:46:20.255 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:20.297 13050 13070 D EGL_emulation: app_time_stats: avg=171.80ms min=8.38ms max=946.84ms count=6
+10-10 07:46:20.310   411  2209 D audioserver: FGS Logger Transaction failed
+10-10 07:46:20.311   411  2209 D audioserver: -129
+10-10 07:46:20.316   567  1850 E Transition: Trying to add a ready-group twice: Display{#0 state=ON size=1080x2400 ROTATION_0}
+10-10 07:46:20.317   567  1850 I ActivityTaskManager: START u0 {cmp=io.appium.android.apis/.ApiDemos (has extras)} with LAUNCH_MULTIPLE from uid 10195 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-10 07:46:20.319  1068  1109 V WindowManagerShell: Transition requested: android.os.BinderProxy@2d7cb76 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=2 lastActiveTime=9244881 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@923c577} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{b6f85e4 io.appium.android.apis.ApiDemos} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:20.344   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-10 07:46:20.384   567  2960 D CoreBackPreview: Window{eb24a9a u0 io.appium.android.apis/io.appium.android.apis.ApiDemos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@70dfec1, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:20.416 13050 13070 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:20.476   567   601 I ActivityTaskManager: Displayed io.appium.android.apis/.ApiDemos for user 0: +163ms
+10-10 07:46:20.476   411   516 D audioserver: FGS Logger Transaction failed
+10-10 07:46:20.476   411   516 D audioserver: -129
+10-10 07:46:20.480  1068  1109 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2d7cb76: {id=67 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xb9faa4d sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{17c5d0 u0 io.appium.android.apis/.ApiDemos)/@0xd6d2902 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:20.481  1068  1109 V WindowManagerShell: Playing animation for (#67)android.os.BinderProxy@2d7cb76@0
+10-10 07:46:20.482  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@7b361c4
+10-10 07:46:20.482  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c288ad
+10-10 07:46:20.482  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@b4717e2
+10-10 07:46:20.483  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@1583773
+10-10 07:46:20.483   567   601 V WindowManager: Sent Transition #67 createdAt=10-10 07:46:20.312 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=2 lastActiveTime=9244881 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bc0a194 Task{744c9c9 #24 type=standard A=10195:io.appium.android.apis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{12b7d43 io.appium.android.apis.ApiDemos} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:20.483  1068  1109 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-10 07:46:20.484   567   601 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-10 07:46:20.484   567   601 V WindowManager:     info={id=67 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0x63ac5fd sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{17c5d0 u0 io.appium.android.apis/.ApiDemos)/@0xf3c0254 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:20.485  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@966d630
+10-10 07:46:20.485  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f2c02a9
+10-10 07:46:20.485  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@642d02e
+10-10 07:46:20.486  1068  1109 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=67 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xb9faa4d sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{17c5d0 u0 io.appium.android.apis/.ApiDemos)/@0xd6d2902 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:20.486  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@67f61f8, appThread = android.app.IApplicationThread$Stub$Proxy@1e676d1, debugName = LauncherToDream }}
+10-10 07:46:20.486  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dfa7536, appThread = android.app.IApplicationThread$Stub$Proxy@11e8c37, debugName = QuickstepLaunchHome }}
+10-10 07:46:20.487  1068  1109 V WindowManagerShell:  Delegate animation for #67 to null
+10-10 07:46:20.489  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:20.489  1068  1109 V WindowManagerShell: start default transition animation, info = {id=67 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xb9faa4d sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{17c5d0 u0 io.appium.android.apis/.ApiDemos)/@0xd6d2902 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:20.490  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@408d34e animAttr=0x5 type=OPEN isEntrance=false
+10-10 07:46:20.565  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d40e08b animAttr=0x4 type=OPEN isEntrance=true
+10-10 07:46:20.632  1068  1109 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:20.632  1068  1109 W Looper  : Slow dispatch took 153ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@ea7fe26 m=0
+10-10 07:46:20.713  1068  1155 D EGL_emulation: app_time_stats: avg=14.64ms min=0.87ms max=34.15ms count=58
+10-10 07:46:20.732   567   592 I ImeTracker: io.appium.android.apis:d6bc937e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-10 07:46:20.732   567   592 I ImeTracker: io.appium.android.apis:d6bc937e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-10 07:46:20.734  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-10 07:46:20.735  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-10 07:46:20.735  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=0 fieldName=null extras=null}, false)
+10-10 07:46:20.736  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:20.737  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:21.094  1068  1109 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#67)android.os.BinderProxy@2d7cb76@0
+10-10 07:46:21.097   567   601 V WindowManager: Finish Transition #67: created at 10-10 07:46:20.312 collect-started=0.037ms request-sent=4.107ms started=7.166ms ready=10.087ms sent=162.034ms finished=784.068ms
+10-10 07:46:21.099  1068  1109 V WindowManagerShell: Track 0 became idle
+10-10 07:46:21.099  1068  1109 V WindowManagerShell: All active transition animations finished
+10-10 07:46:21.194   567   606 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+10-10 07:46:21.696 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:21.708 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:21.709 13006 13038 I appium  : FindElement command
+10-10 07:46:21.714 13006 13038 I appium  : method: 'accessibility id', selector: '3. Preference dependencies'
+10-10 07:46:21.714 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:21.725 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ed-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ed-ffff-ffff00000021"}}
+10-10 07:46:21.735 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ed-ffff-ffff00000021/click
+10-10 07:46:21.736 13006 13038 I appium  : Click command
+10-10 07:46:21.744  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=596.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9246306, downTime=9246306, deviceId=-1, source=0x1002, displayId=0, eventId=-845197707 }
+10-10 07:46:21.747 13050 13050 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-10 07:46:21.753  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=596.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9246317, downTime=9246306, deviceId=-1, source=0x1002, displayId=0, eventId=-689658265 }
+10-10 07:46:21.766 13050 13070 D EGL_emulation: app_time_stats: avg=431.28ms min=13.34ms max=1019.23ms count=3
+10-10 07:46:21.771 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:21.821   411  2209 D audioserver: FGS Logger Transaction failed
+10-10 07:46:21.821   411  2209 D audioserver: -129
+10-10 07:46:21.825   567  2960 E Transition: Trying to add a ready-group twice: Display{#0 state=ON size=1080x2400 ROTATION_0}
+10-10 07:46:21.825   567  2960 I ActivityTaskManager: START u0 {cmp=io.appium.android.apis/.preference.PreferenceDependencies} with LAUNCH_MULTIPLE from uid 10195 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-10 07:46:21.828  1068  1109 V WindowManagerShell: Transition requested: android.os.BinderProxy@afcc0bd TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=3 lastActiveTime=9246390 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@f85d6b2} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{312d603 io.appium.android.apis.preference.PreferenceDependencies} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:21.837   411   516 D AudioFlinger: mixer(0x76a58ed99930) throttle end: throttle time(37)
+10-10 07:46:21.860   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-10 07:46:21.871 13050 13050 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-10 07:46:21.885   567  3016 D CoreBackPreview: Window{ae34516 u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@c2e286d, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:21.923 13050 13070 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:21.988  1068  1109 V WindowManagerShell: onTransitionReady android.os.BinderProxy@afcc0bd: {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{5ad51bb u0 io.appium.android.apis/.preference.PreferenceDependencies)/@0x58c3980 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xf39abb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:21.988  1068  1109 V WindowManagerShell: Playing animation for (#68)android.os.BinderProxy@afcc0bd@0
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@7b361c4
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c288ad
+10-10 07:46:21.988   567   601 I ActivityTaskManager: Displayed io.appium.android.apis/.preference.PreferenceDependencies for user 0: +165ms
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@b4717e2
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@1583773
+10-10 07:46:21.988  1068  1109 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@966d630
+10-10 07:46:21.988   567   601 V WindowManager: Sent Transition #68 createdAt=10-10 07:46:21.822 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=24 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos } baseActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} topActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies} origActivity=null realActivity=ComponentInfo{io.appium.android.apis/io.appium.android.apis.ApiDemos} numActivities=3 lastActiveTime=9246390 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bc0a194 Task{744c9c9 #24 type=standard A=10195:io.appium.android.apis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{40841c io.appium.android.apis.preference.PreferenceDependencies} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f2c02a9
+10-10 07:46:21.988   567   601 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@642d02e
+10-10 07:46:21.988   567   601 V WindowManager:     info={id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{5ad51bb u0 io.appium.android.apis/.preference.PreferenceDependencies)/@0xb95e0ee sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0x63ac5fd sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:21.988  1068  1109 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{5ad51bb u0 io.appium.android.apis/.preference.PreferenceDependencies)/@0x58c3980 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xf39abb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@67f61f8, appThread = android.app.IApplicationThread$Stub$Proxy@1e676d1, debugName = LauncherToDream }}
+10-10 07:46:21.988  1068  1109 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dfa7536, appThread = android.app.IApplicationThread$Stub$Proxy@11e8c37, debugName = QuickstepLaunchHome }}
+10-10 07:46:21.989  1068  1109 V WindowManagerShell:  Delegate animation for #68 to null
+10-10 07:46:21.989  1068  1109 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:21.989  1068  1109 V WindowManagerShell: start default transition animation, info = {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK leash=Surface(name=ActivityRecord{5ad51bb u0 io.appium.android.apis/.preference.PreferenceDependencies)/@0x58c3980 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2400) d=-1->0 r=-1->0:-1},{null m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{63a77af u0 io.appium.android.apis/.ApiDemos)/@0xf39abb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-10 07:46:21.990  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@9c04a75 animAttr=0x5 type=OPEN isEntrance=false
+10-10 07:46:22.028  1068  1109 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@23cd6 animAttr=0x4 type=OPEN isEntrance=true
+10-10 07:46:22.032 13050 13050 D AutofillManager: notifyViewEnteredForFillDialog:1073741824
+10-10 07:46:22.039   411   516 D audioserver: FGS Logger Transaction failed
+10-10 07:46:22.039   411   516 D audioserver: -129
+10-10 07:46:22.088  1068  1109 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@774d7cf
+10-10 07:46:22.088  1068  1109 W Looper  : Slow dispatch took 100ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@1c4532d m=0
+10-10 07:46:22.182   567  2960 I ImeTracker: io.appium.android.apis:655b18cc: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-10 07:46:22.182   567  2960 I ImeTracker: io.appium.android.apis:655b18cc: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-10 07:46:22.183  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-10 07:46:22.185  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-10 07:46:22.186  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=0 fieldName=null extras=null}, false)
+10-10 07:46:22.186  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:22.186  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:22.197   567  1850 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+10-10 07:46:22.545  1068  1109 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#68)android.os.BinderProxy@afcc0bd@0
+10-10 07:46:22.548   567   601 V WindowManager: Finish Transition #68: created at 10-10 07:46:21.822 collect-started=0.036ms request-sent=2.817ms started=7.289ms ready=10.79ms sent=164.591ms finished=725.047ms
+10-10 07:46:22.550  1068  1109 V WindowManagerShell: Track 0 became idle
+10-10 07:46:22.550  1068  1109 V WindowManagerShell: All active transition animations finished
+10-10 07:46:22.562 13050 13070 D OpenGLRenderer: endAllActiveAnimators on 0x78b1266557e0 (ListView) with handle 0x78b0d665fdd0
+10-10 07:46:22.724   567  4120 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-10 07:46:23.150 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:23.162 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:23.164 13006 13038 I appium  : FindElement command
+10-10 07:46:23.165 13006 13038 I appium  : method: 'id', selector: 'android:id/checkbox'
+10-10 07:46:23.166 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:23.183 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ee-ffff-ffff00000044","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ee-ffff-ffff00000044"}}
+10-10 07:46:23.194 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ee-ffff-ffff00000044/click
+10-10 07:46:23.195 13006 13038 I appium  : Click command
+10-10 07:46:23.216  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=996.0, y[0]=441.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9247767, downTime=9247767, deviceId=-1, source=0x1002, displayId=0, eventId=-614736253 }
+10-10 07:46:23.226  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=996.0, y[0]=441.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9247791, downTime=9247767, deviceId=-1, source=0x1002, displayId=0, eventId=-525536505 }
+10-10 07:46:23.250 13050 13070 D EGL_emulation: app_time_stats: avg=423.58ms min=87.85ms max=1051.54ms count=3
+10-10 07:46:23.259 13006 13038 W GestureController: Gestures took longer than expected (57ms >> 16ms), device might be in a busy state.
+10-10 07:46:23.260 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:23.266   358   394 I netd    : tetherGetStats() -> {[]} <0.58ms>
+10-10 07:46:23.269   358   394 I netd    : bandwidthSetGlobalAlert(2097152) <0.18ms>
+10-10 07:46:23.274   358   394 I netd    : bandwidthRemoveInterfaceQuota(eth0) <0.90ms>
+10-10 07:46:23.277   358   394 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <2.30ms>
+10-10 07:46:23.281   358   394 I netd    : bandwidthRemoveInterfaceQuota(eth0) <1.60ms>
+10-10 07:46:23.283   358   394 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <1.38ms>
+10-10 07:46:23.287   567  1067 D NetworkStatsObservers: Unregistering RequestInfo from pid/uid:567/1000(android) for DataUsageRequest [ requestId=22, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3353979 ] accessLevel:3
+10-10 07:46:23.288   567   984 D NetworkStatsObservers: Registering observer for RequestInfo from pid/uid:567/1000(android) for DataUsageRequest [ requestId=23, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3353376 ] accessLevel:3
+10-10 07:46:23.296   411  2209 D audioserver: FGS Logger Transaction failed
+10-10 07:46:23.296   411  2209 D audioserver: -129
+10-10 07:46:23.307   358   394 I netd    : tetherGetStats() -> {[]} <0.33ms>
+10-10 07:46:23.314 13050 13050 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+10-10 07:46:23.512   411   516 D audioserver: FGS Logger Transaction failed
+10-10 07:46:23.513   411   516 D audioserver: -129
+10-10 07:46:23.810   567   732 D ActivityManager: freezing 7871 com.google.android.youtube
+10-10 07:46:23.917 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:23.926 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:23.928 13006 13038 I appium  : FindElement command
+10-10 07:46:23.929 13006 13038 I appium  : method: 'xpath', selector: '//android.widget.TextView[@text='WiFi settings']'
+10-10 07:46:23.929 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:23.934 13006 13038 I appium  : The following attributes will be included to the page source: [text]
+10-10 07:46:24.382 13006 13038 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10194; state: ENABLED
+10-10 07:46:24.464 13006 13038 I appium  : Took 0ms to retrieve 1 matches for '//android.widget.TextView[@text='WiFi settings']' XPath2 query
+10-10 07:46:24.467 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ee-ffff-ffff00000049","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ee-ffff-ffff00000049"}}
+10-10 07:46:24.476 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ee-ffff-ffff00000049/click
+10-10 07:46:24.477 13006 13038 I appium  : Click command
+10-10 07:46:24.495  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=162.0, y[0]=598.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9249046, downTime=9249046, deviceId=-1, source=0x1002, displayId=0, eventId=-198184278 }
+10-10 07:46:24.506  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=162.0, y[0]=598.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9249071, downTime=9249046, deviceId=-1, source=0x1002, displayId=0, eventId=-181682720 }
+10-10 07:46:24.513 13050 13070 D EGL_emulation: app_time_stats: avg=23.51ms min=12.89ms max=397.96ms count=53
+10-10 07:46:24.520 13006 13038 W GestureController: Gestures took longer than expected (40ms >> 16ms), device might be in a busy state.
+10-10 07:46:24.520 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:24.580   411  2209 D audioserver: FGS Logger Transaction failed
+10-10 07:46:24.580   411  2209 D audioserver: -129
+10-10 07:46:24.603 13050 13050 I ImeTracker: io.appium.android.apis:93737af7: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT_BY_INSETS_API
+10-10 07:46:24.604 13050 13050 D InsetsController: show(ime(), fromIme=false)
+10-10 07:46:24.605 13050 13050 I ImeTracker: io.appium.android.apis:93737af7: onFailed at PHASE_CLIENT_REQUEST_IME_SHOW
+10-10 07:46:24.613   567  3017 D CoreBackPreview: Window{37e499b u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2525113, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:24.638   567  3017 I AppsFilter: interaction: PackageSetting{9727f50 io.appium.android.apis/10195} -> PackageSetting{997ab7 com.google.android.inputmethod.latin/10147} BLOCKED
+10-10 07:46:24.638   567  3017 W FillRequestEventLogger: Couldn't find packageName: com.google.android.inputmethod.latin
+10-10 07:46:24.642   567   567 D AutofillInlineSuggestionsRequestSession: onCreateInlineSuggestionsRequestLocked called: 1073741826@968941246
+10-10 07:46:24.647   567  3017 D AutofillInlineSuggestionsRequestSession: onInlineSuggestionsSessionInvalidated() called.
+10-10 07:46:24.650 13050 13070 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:24.698 13050 13050 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10195; state: ENABLED
+10-10 07:46:24.700 13050 13050 I AssistStructure: Flattened final assist data: 2992 bytes, containing 2 windows, 19 views
+10-10 07:46:24.700   567   592 D AutofillSession: createPendingIntent for request 11
+10-10 07:46:24.700   567   592 D ContentCapturePerUserService: Notified activity assist data for activity: Token{b54f6d8 ActivityRecord{5ad51bb u0 io.appium.android.apis/.preference.PreferenceDependencies t24}} without a session Id
+10-10 07:46:24.740   567   592 I ImeTracker: io.appium.android.apis:254295b4: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-10 07:46:24.740   567   592 I ImeTracker: io.appium.android.apis:254295b4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-10 07:46:24.741  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-10 07:46:24.743  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-10 07:46:24.747  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null}, false)
+10-10 07:46:24.747  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:24.748   567  2960 D AutofillInlineSuggestionsRequestSession: onInlineSuggestionsRequest() received: InlineSuggestionsRequest { maxSuggestionCount = 9, inlinePresentationSpecs = [InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }, InlinePresentationSpec { minSize = 110x116, maxSize = 630x116, style = Bundle[mParcelledData.dataSize=2816] }], hostPackageName = com.google.android.inputmethod.latin, supportedLocales = [en_US], extras = Bundle[EMPTY_PARCEL], hostInputToken = android.os.BinderProxy@9c5e42f, hostDisplayId = 0, inlineTooltipPresentationSpec = null }
+10-10 07:46:24.748  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:24.757  5464  5464 W AutofillChimeraService: Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+10-10 07:46:24.761   567   567 W FillRequestEventLogger: Shouldn't be logging AutofillFillRequestReported again for same event
+10-10 07:46:24.762   567   567 W FillResponseEventLogger: Shouldn't be logging AutofillFillRequestReported again for same event
+10-10 07:46:24.762   567   567 D AutofillSession: clearPendingIntentLocked
+10-10 07:46:24.762   567   567 D AutofillInlineSuggestionsRequestSession: onInlineSuggestionsResponseLocked called for:1073741826@968941246
+10-10 07:46:24.763  1803  1803 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:968941246
+10-10 07:46:24.763   567   602 D AutofillUI: destroySaveUiUiThread(): already destroyed
+10-10 07:46:24.767  5464  5479 I IPCThreadState: oneway function results for code 1 on binder at 0x78b0d66a18c0 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+10-10 07:46:24.782 13050 13050 I ImeTracker: io.appium.android.apis:6439ccfd: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT_BY_INSETS_API
+10-10 07:46:24.783 13050 13050 D InputMethodManager: showSoftInput() view=android.widget.EditText{9c52854 VFED..CL. .F...... 53,53-887,171 #1020003 android:id/edit aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT_BY_INSETS_API
+10-10 07:46:24.788  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.788  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null}, false)
+10-10 07:46:24.789  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:24.790  1755  1893 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.792  1755  1755 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+10-10 07:46:24.793  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-10 07:46:24.794  1755  1755 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+10-10 07:46:24.795  1755  1755 I Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [en_US], layout = qwerty
+10-10 07:46:24.795  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-10 07:46:24.796  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-10 07:46:24.796  1755  1755 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1003 inline flag updated to:false
+10-10 07:46:24.797  1755  7189 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+10-10 07:46:24.797  1755  7189 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag en-US
+10-10 07:46:24.800  1755  1755 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-10 07:46:24.804  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 354 height for app when screen height:2274, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1804
+10-10 07:46:24.805   411   516 D audioserver: FGS Logger Transaction failed
+10-10 07:46:24.805   411   516 D audioserver: -129
+10-10 07:46:24.805  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.808  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+10-10 07:46:24.808  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+10-10 07:46:24.808  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+10-10 07:46:24.808  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+10-10 07:46:24.809  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+10-10 07:46:24.810  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+10-10 07:46:24.811  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 354 height for app when screen height:2274, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1804
+10-10 07:46:24.811  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.812  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.812  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.813  1755  1755 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+10-10 07:46:24.813  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:24.813  1755  1755 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 126
+10-10 07:46:24.814  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:24.814  1755  1755 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 126
+10-10 07:46:24.815  1755  1755 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=true_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+10-10 07:46:24.819  1755  1755 I ProactiveSuggestionsHolderManager: ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION
+10-10 07:46:24.821  1755  1755 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+10-10 07:46:24.825   567   592 D CoreBackPreview: Window{37e499b u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1f88a2d, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:24.836  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.836  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.856  1755  1917 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-10 07:46:24.871  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.891  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.891 13050 13050 D InsetsController: show(ime(), fromIme=true)
+10-10 07:46:24.891  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:24.892  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:24.896  1755  2539 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+10-10 07:46:24.915  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.916  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.924  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:24.929 13050 13050 D AutofillManager: notifyViewEnteredForFillDialog:1073741843
+10-10 07:46:25.001  1755  1755 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+10-10 07:46:25.033  1068  1155 D EGL_emulation: app_time_stats: avg=239.25ms min=13.04ms max=3789.26ms count=18
+10-10 07:46:25.111 13050 13050 I ImeTracker: io.appium.android.apis:6439ccfd: onShown
+10-10 07:46:25.748 13050 13070 D EGL_emulation: app_time_stats: avg=72.99ms min=1.80ms max=501.16ms count=13
+10-10 07:46:25.866 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:25.874 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:25.876 13006 13038 I appium  : FindElement command
+10-10 07:46:25.876 13006 13038 I appium  : method: 'id', selector: 'android:id/alertTitle'
+10-10 07:46:25.877 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:25.887 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ef-ffff-ffff00000053","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ef-ffff-ffff00000053"}}
+10-10 07:46:25.895 13006 13038 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ef-ffff-ffff00000053/text
+10-10 07:46:25.897 13006 13038 I appium  : GetText command
+10-10 07:46:25.903 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":"WiFi settings"}
+10-10 07:46:25.914 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:25.915 13006 13038 I appium  : FindElement command
+10-10 07:46:25.916 13006 13038 I appium  : method: 'id', selector: 'android:id/edit'
+10-10 07:46:25.917 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:25.928 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ef-ffff-ffff0000004c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ef-ffff-ffff0000004c"}}
+10-10 07:46:25.941 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ef-ffff-ffff0000004c/value
+10-10 07:46:25.944 13006 13038 I appium  : SendKeysToElement command
+10-10 07:46:25.960  1755  1755 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():82 initialize...
+10-10 07:46:25.960  1755  1755 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():70 onContentChanged()
+10-10 07:46:25.960  1755  1755 I ContactsDataManager: ContactsDataManager.onContentChanged():156 onContentChanged()
+10-10 07:46:25.961  1755  1755 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():94 initialize...done
+10-10 07:46:25.963 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:25.967   567  2373 W ProcessStats: Tracking association SourceState{9a969ec com.google.android.gms.persistent/10123 Fgs #17015} whose proc state 3 is better than process ProcessState{f6e76cb com.google.android.gms/10123 pkg=com.google.android.gms} proc state 13 (459 skipped)
+10-10 07:46:25.971  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialCapsMode=0x1000 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null}, true)
+10-10 07:46:25.971  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:25.972  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:25.972  1755  1755 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-10 07:46:25.973  1755  1755 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{TRAINING_CACHE_SESSION=1791598584794, INPUT_SESSION=1791598584748, INPUT_VIEW_SESSION=1791598584788, IME_SESSION=1791598584794}], ending it now.
+10-10 07:46:25.973  1755  1755 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{TRAINING_CACHE_SESSION=1791598584794, INPUT_SESSION=1791598584748, INPUT_VIEW_SESSION=1791598584788, IME_SESSION=1791598584794}], ending it now.
+10-10 07:46:25.976  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialCapsMode=0x1000 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null}, true)
+10-10 07:46:25.976  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:25.976  1755  1893 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:25.977 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element
+10-10 07:46:25.978  1755  1755 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+10-10 07:46:25.978 13006 13038 I appium  : FindElement command
+10-10 07:46:25.979 13006 13038 I appium  : method: 'id', selector: 'android:id/button1'
+10-10 07:46:25.980 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:25.984  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-10 07:46:25.985  1755  1755 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+10-10 07:46:25.986  1755  1755 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-10 07:46:25.986  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-10 07:46:25.987  1755  1755 I AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+10-10 07:46:25.987  1755  1755 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-10 07:46:25.987  1755  1755 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialCapsMode=0x1000 hintText=null label=null packageName=io.appium.android.apis fieldId=16908291 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+10-10 07:46:25.988  1755  1893 W ModuleManager: ModuleManager.loadModule():450 Module jjj is not available
+10-10 07:46:25.989  1755  1893 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():447 No input action collection in this session, skip logging.
+10-10 07:46:25.989  1755  1755 I Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [en_US], layout = qwerty
+10-10 07:46:25.989  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-10 07:46:25.990  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-10 07:46:25.990  1755  1755 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1003 inline flag updated to:false
+10-10 07:46:25.991  1755  7189 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+10-10 07:46:25.994  1755  7189 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag en-US
+10-10 07:46:25.999  1755  1755 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-10 07:46:26.002  5464 13083 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 9810567]
+10-10 07:46:26.003   567  3017 D CompatibilityChangeReporter: Compat change id reported: 218533173; UID 10123; state: ENABLED
+10-10 07:46:26.006  1755  1755 I KeyboardViewController: KeyboardViewController.lambda$showSelfAndAncestors$6():609 current view doesn't has the priority com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsBar{30dafec I.E...... ......ID 0,0-850,116 #7f0b0018 app:id/0_resource_name_obfuscated} to show itself, DEFAULT
+10-10 07:46:26.007  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 354 height for app when screen height:2274, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1804
+10-10 07:46:26.008  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.008  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+10-10 07:46:26.009  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+10-10 07:46:26.009  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+10-10 07:46:26.010  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+10-10 07:46:26.011  5464 13083 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 9810576]
+10-10 07:46:26.011  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+10-10 07:46:26.012  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+10-10 07:46:26.014  1755  1755 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 354 height for app when screen height:2274, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1804
+10-10 07:46:26.015  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.016  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.017  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.018  1755  1755 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+10-10 07:46:26.018  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:26.019  1755  1755 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 126
+10-10 07:46:26.019  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:26.021  1755  1755 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 126
+10-10 07:46:26.021  1755  1755 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=true_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+10-10 07:46:26.023  1755  1755 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+10-10 07:46:26.024  1755  1755 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():234 startImportContentTask()
+10-10 07:46:26.027  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.030  1755  1755 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+10-10 07:46:26.032  1755  1917 D EGL_emulation: app_time_stats: avg=153.74ms min=1.65ms max=1034.39ms count=7
+10-10 07:46:26.034  1755  1755 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-10 07:46:26.035  1755  2539 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+10-10 07:46:26.035  1068  1155 D EGL_emulation: app_time_stats: avg=15.26ms min=9.87ms max=21.41ms count=60
+10-10 07:46:26.037  1755  2277 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():248 doInBackground()
+10-10 07:46:26.037  1755  2277 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+10-10 07:46:26.040  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.040  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.049  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.052  1755  2277 I ShortcutsDataManager: AbstractContentDataManager.importRecords():338 importRecords() : Success : Count = 0
+10-10 07:46:26.053  1755  2277 I ShortcutsDataManager: AbstractContentDataManager.importContentData():288 importContentData() : Ending import process
+10-10 07:46:26.054  1755  2539 I Delight5Decoder: Delight5DecoderWrapper.unloadLanguageModel():857 unloadLanguageModel() : 4, version [n/a]
+10-10 07:46:26.058  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.058  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.069  1755  2277 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():162 run() : Added 0 words and 0 shortcuts
+10-10 07:46:26.069  1755  2277 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():41 perform() : 4 : cje : Completed
+10-10 07:46:26.069  1755  2539 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():649 loadLanguageModel() : 4, version [n/a]
+10-10 07:46:26.070  1755  2539 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():690 Loaded dynamic LM 4.en
+10-10 07:46:26.071  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService started execution. cause:2 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.071  1755  1755 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():259 onPostExecute() : Result = [2,0]
+10-10 07:46:26.072  1755  1755 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():80 onImportFinished() : Result = 2 : Count = 0
+10-10 07:46:26.074  6489  6520 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+10-10 07:46:26.075  6489  6520 I Checkin : [EventLogChimeraService] Aggregate from 1791596700751 (log), 1791596700751 (data)
+10-10 07:46:26.063     0     0 I logd    : logdr: UID=10123 GID=10123 PID=6489 n tail=0 logMask=4 pid=0 start=0ns deadline=0ns
+10-10 07:46:26.085  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-10 07:46:26.087  5464 13099 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:2 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.099   567  2961 I DropBoxManagerService: add tag=event_data isTagEnabled=true flags=0x2
+10-10 07:46:26.102   567  2961 D ActivityManager: sync unfroze 6422 com.google.process.gservices for 7
+10-10 07:46:26.110  5464 12561 V NFC     : this device does not have NFC support
+10-10 07:46:26.116  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService finished executing. cause:2 result: 1 elapsed_millis: 70 uptime_millis: 70 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.119  5464 12561 W TapAndPay: NfcAdapter is null while obtaining CardEmulation instance. [CONTEXT service_id=79 ]
+10-10 07:46:26.119  5464 12561 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at android.nfc.cardemulation.CardEmulation.getInstance(CardEmulation.java:152)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at cdoy.<init>(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at com.google.android.gms.tapandpay.hce.task.TapAndPayAidRegistrationTaskOperation.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):5)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):4)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at avzs.call(:com.google.android.gms@231818047@23.18.18 (190800-535401451):4)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-10 07:46:26.119  5464 12561 W TapAndPay: 	at java.lang.Thread.run(Thread.java:1012)
+10-10 07:46:26.135  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:2 result: 3 elapsed_millis: 66 uptime_millis: 66 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.163  5464 13099 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.168  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.stats.NotificationLoggingTask.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.168  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.stats.NotificationLoggingTask.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.181  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.common.stats.NotificationLoggingTask started execution. cause:5 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.185  6489  6545 W ChimeraUtils: Module com.google.android.gms.core missing resource null(0)
+10-10 07:46:26.190  5464 13083 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.common.stats.NotificationLoggingTask finished executing. cause:5 result: 1 elapsed_millis: 24 uptime_millis: 24 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.190  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.stats.NotificationLoggingTask.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.203  1755  1755 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+10-10 07:46:26.204  5464 13083 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 2 elapsed_millis: 37 uptime_millis: 37 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.217  6489  6489 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.smartdevice.logging.CleanBufferedLogsService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.217  6489  6489 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.smartdevice.logging.CleanBufferedLogsService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.254  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.smartdevice.logging.CleanBufferedLogsService started execution. cause:5 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.258  5464 13083 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService started execution. cause:5 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.269  5464 12818 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService finished executing. cause:5 result: 1 elapsed_millis: 20 uptime_millis: 20 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.300  6489  6540 I SmartDevice: [CleanBufferedLogsService] Running task upload_buffered_logs_periodic
+10-10 07:46:26.304  6489  6540 I ConsentLogging: [LoggingStore] No events available for subdirectory
+10-10 07:46:26.304  6489  6540 W SmartDevice: [SmartDeviceBufferedLogs] No buffered logs for source SMART_SETUP after SUW is complete
+10-10 07:46:26.305  6489  6540 I ConsentLogging: [LoggingStore] No events available for subdirectory
+10-10 07:46:26.305  6489  6540 W SmartDevice: [SmartDeviceBufferedLogs] No buffered logs for source ANDROID_AUTH after SUW is complete
+10-10 07:46:26.308  5464 13083 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.smartdevice.logging.CleanBufferedLogsService finished executing. cause:5 result: 1 elapsed_millis: 98 uptime_millis: 98 exec_start_elapsed_seconds: 9250 [CONTEXT service_id=218 ]
+10-10 07:46:26.308  6489  6489 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.smartdevice.logging.CleanBufferedLogsService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+10-10 07:46:26.557 13050 13070 D EGL_emulation: app_time_stats: avg=44.96ms min=12.75ms max=1173.63ms count=45
+10-10 07:46:26.665 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":{"ELEMENT":"00000000-0000-00ef-ffff-ffff00000065","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-00ef-ffff-ffff00000065"}}
+10-10 07:46:26.673 13006 13038 I appium  : channel read: POST /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/element/00000000-0000-00ef-ffff-ffff00000065/click
+10-10 07:46:26.675 13006 13038 I appium  : Click command
+10-10 07:46:26.730  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=894.0, y[0]=993.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9251277, downTime=9251277, deviceId=-1, source=0x1002, displayId=0, eventId=-1031089261 }
+10-10 07:46:26.740  1353  1353 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=894.0, y[0]=993.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=9251303, downTime=9251277, deviceId=-1, source=0x1002, displayId=0, eventId=-242411789 }
+10-10 07:46:26.750   411  2209 D audioserver: FGS Logger Transaction failed
+10-10 07:46:26.750   411  2209 D audioserver: -129
+10-10 07:46:26.755 13006 13038 W GestureController: Gestures took longer than expected (43ms >> 16ms), device might be in a busy state.
+10-10 07:46:26.755 13006 13038 I appium  : Waiting up to 10000ms for the device to idle
+10-10 07:46:26.757 13050 13070 D EGL_emulation: app_time_stats: avg=52.53ms min=13.63ms max=274.83ms count=19
+10-10 07:46:26.758 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":null}
+10-10 07:46:26.767 13050 13050 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@98181836 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@ddd8c08
+10-10 07:46:26.767 13006 13038 I appium  : channel read: GET /session/c233598b-6cdb-45f5-87c4-0772b204c5c2/screenshot
+10-10 07:46:26.768   567  2961 D CoreBackPreview: Window{37e499b u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b4b6a5d, mPriority=0, mIsAnimationCallback=false}
+10-10 07:46:26.769 13006 13038 I appium  : CaptureScreenshot command
+10-10 07:46:26.769 13050 13050 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@b4a6d51
+10-10 07:46:26.770   567  2960 D CoreBackPreview: Window{37e499b u0 io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies}: Setting back callback null
+10-10 07:46:26.772 13006 13038 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+10-10 07:46:26.773 13006 13038 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+10-10 07:46:26.775 13050 13070 D OpenGLRenderer: endAllActiveAnimators on 0x78b12668a9a0 (RippleDrawable) with handle 0x78b0d6670f30
+10-10 07:46:26.776   567  2373 W InputManager-JNI: Input channel object '37e499b io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies (client)' was disposed without first being removed with the input manager!
+10-10 07:46:26.804   567   606 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+10-10 07:46:26.813 13050 13050 D AutofillManager: notifyViewEnteredForFillDialog:1073741844
+10-10 07:46:26.821   567  2960 I ImeTracker: io.appium.android.apis:dd43d2cb: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-10 07:46:26.823  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241 
+10-10 07:46:26.824  1755  1755 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+10-10 07:46:26.824  1755  1755 I InputBundle: InputBundle.consumeEvent():923 Skip consuming an event as keyboard status is 0
+10-10 07:46:26.825  1755  1755 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-10 07:46:26.825  1755  1755 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-10 07:46:26.826  1755  1755 I AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+10-10 07:46:26.830  1755  1893 W ModuleManager: ModuleManager.loadModule():450 Module jjj is not available
+10-10 07:46:26.836  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-10 07:46:26.839  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-10 07:46:26.839  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=io.appium.android.apis fieldId=0 fieldName=null extras=null}, false)
+10-10 07:46:26.839  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-10 07:46:26.841 13050 13050 D AutofillManager: notifyViewEnteredForFillDialog:1073741845
+10-10 07:46:26.842  1755  1755 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-10 07:46:26.846 13109 13109 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-10 07:46:26.847 13109 13109 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-10 07:46:26.868 13050 13050 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 98181836
+10-10 07:46:26.869 13050 13050 I ImeTracker: io.appium.android.apis:dd43d2cb: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+10-10 07:46:26.872   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-10 07:46:26.873 13109 13114 I Gralloc4: mapper 4.x is not supported
+10-10 07:46:26.855     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-10 07:46:26.930   567   588 I system_server: NativeAlloc concurrent copying GC freed 561636(21MB) AllocSpace objects, 43(988KB) LOS objects, 45% free, 28MB/52MB, paused 1.637ms,60us total 131.947ms
+10-10 07:46:26.940   567   604 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-10 07:46:26.976   178 12960 I keystore2: system/security/keystore2/src/watchdog.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-10 07:46:26.981   411   516 D audioserver: FGS Logger Transaction failed
+10-10 07:46:26.981   411   516 D audioserver: -129
+10-10 07:46:27.046  1068  1155 D EGL_emulation: app_time_stats: avg=20.41ms min=8.31ms max=266.84ms count=46
+10-10 07:46:27.062 13006 13038 I appium  : AppiumResponse: {"sessionId":"c233598b-6cdb-45f5-87c4-0772b204c5c2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFT3ne//94x6F6oINRAIJIroYGNhjA0ugEvi2I7tTZy9cRL33LubYntLkk1zdvfe3d/NL8bZdZJNsnHiOMUFMI471TYGAwIkikCNJiShEaojaeb+ISMj5ow0M5p2pNfz8XDCnDlzzmf…
+10-10 07:46:27.101   567   732 D ActivityManager: freezing 6326 com.android.chrome
+10-10 07:46:27.107   567   732 D ActivityManager: freezing 9639 com.google.android.documentsui
+10-10 07:46:27.101     0     0 I logd    : logdr: UID=2000 GID=2000 PID=13115 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

@@ -1,0 +1,7 @@
+test,status,duration_ms,time
+tcApi01_userMatchesDb_32,PASS,1526,Sat Oct 10 07:45:18 IST 2026
+tcApi01_userMatchesDb_33,PASS,404,Sat Oct 10 07:45:18 IST 2026
+tcApi01_userMatchesDb_34,PASS,412,Sat Oct 10 07:45:19 IST 2026
+tcMob01_wifiSettingsJourney_782446619,FAIL,6183,Sat Oct 10 07:45:30 IST 2026
+tcMob01_wifiSettingsJourney_782446620,FAIL,6553,Sat Oct 10 07:45:42 IST 2026
+tcMob02_viewsNavigation_1,PASS,2360,Sat Oct 10 07:45:49 IST 2026
